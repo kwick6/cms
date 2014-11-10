@@ -1,0 +1,51 @@
+/*
+Theme Name: iStock Theme
+Theme URL: 10.210.66.135
+Description: This theme is the iStock Content custom WP theme.
+Version: 1.0
+Author: brian.thompson@gettyimages.com
+Author URL: istockphoto.com
+Tags: istock
+*/
+.hub-hero {
+    margin-top: -32px;
+    width: 100%;
+}
+
+.large-4 .columns {
+    float: left !important;
+}
+
+.content {
+    margin-top: 5px;
+    float: left;
+    border-width: 0.1em;
+    border-color: #999;
+    border-style: solid;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #1d5;
+    margin-right: 14%;
+    margin-top: 5px;
+    float: right;
+    border-width: 0.1em;
+    border-color: #999;
+    border-style: solid;
+    top: 180px;
+    width: 23%;
+}
+
+.footer {
+    background-color: red;
+    margin-left: 14%;
+    float: left;
+    margin-top: 5px;
+    width: 72%;
+    height: 50px;
+    border-width: 0.1em;
+    border-color: #999;
+    border-style: solid;
+}
