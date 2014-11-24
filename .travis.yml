@@ -1,11 +1,12 @@
-nguage: php
+language: php
 php:
-  - "5.5"
-  - "5.4"
-  - "5.3"
-
-deploy: 
+- '5.5'
+- '5.4'
+- '5.3'
+deploy:
   provider: opsworks
-  access-key-id: ACCESS-KEY-ID 
-  secret-access-key: SECRET-ACCESS-KEY 
-  app-id: APP-ID 
+  access_key_id: YOUR AWS ACCESS KEY
+  secret_access_key: YOUR AWS SECRET KEY
+  app_id: YOUR APP ID
+dd:
+  secure: vqnSqjBWdVHgF7IjKJCfOYbSso/KEFA8xNUFUDhhZhCSHwQyErzgFK8l9ElJnis7Y0ELIOuDtCDfMf3tH10x/cqwHEundxNsT9FNopImD0io8eTDF4ka5n2Ysf+IowHQe31uCysPDdGiFH9fU4fJg0FxgiU2RXM0zzCdZtEp5xc=
